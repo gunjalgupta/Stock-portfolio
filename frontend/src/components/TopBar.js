@@ -40,11 +40,11 @@ export class TopBar extends React.Component{
           <Toolbar>
             <MultilineChart/>
             <Typography variant="h6" className={"title"}>
-              Stock Portfolio
+              Capital Portfolio
             </Typography>
 
             <div className="auth-toolbar">
-              <Button className={"logout-button"} color="inherit" onClick={this.form_logout}>Logout</Button>
+              <Button className={"logout-button"} color="inherit" onClick={this.form_logout}>Sign out</Button>
             </div>
           </Toolbar>
         </AppBar>

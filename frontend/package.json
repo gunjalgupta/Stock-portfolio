@@ -22,7 +22,7 @@
     "build": "babel-node tools/build.js && npm run open:dist",
     "analyze-bundle": "babel-node ./tools/analyzeBundle.js"
   },
-  "author": "Nikita Bairagi",
+  "author": "Gunjal Gupta",
   "license": "MIT",
   "dependencies": {
     "@hot-loader/react-dom": "16.10.2",

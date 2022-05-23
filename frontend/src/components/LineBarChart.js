@@ -23,7 +23,7 @@ export class LineBarAreaComposedChart extends React.Component{
     return (
       <ResponsiveContainer width={"100%"} height={400}>
         <ComposedChart data={this.props.data}
-                       margin={{top: 20, right: 20, bottom: 20, left: 20}}>
+            margin={{top: 20, right: 20, bottom: 20, left: 20}}>
           <CartesianGrid strokeDasharray="3 3"/>
           <XAxis dataKey="name"/>
           <YAxis />

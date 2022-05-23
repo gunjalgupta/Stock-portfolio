@@ -5,7 +5,7 @@ import * as actions from "../actions/stockInputActions";
 import {connect} from "react-redux";
 import PropTypes from "prop-types";
 import Reports from "./Reports";
-import Widget from "./Widget";
+//import Widget from "./Widget";
 import {TopBar} from "./TopBar";
 import {checksession} from "../api/api";
 
@@ -46,7 +46,7 @@ export class HomePage extends React.Component {
         </div>
 
         <div className="reports">
-          <Widget/>
+          {/* <Widget/> */}
           <Reports name={this.state.name} />
         </div>
 

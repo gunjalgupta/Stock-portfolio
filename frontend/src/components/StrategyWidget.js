@@ -105,7 +105,7 @@ export default class StrategyWidget extends Component {
 
   render() {
     return(
-      <div id="strategyWidget" className="stock-widget-container">
+      <div id="strategy" className="stock-widget-container">
         <div className="tradingview-widget-container">
           <div className="tradingview-widget-container__widget">
           </div>
