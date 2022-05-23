@@ -9,9 +9,9 @@ html {
       .container{
         height: 100%;
         .top-app-bar {
-          background-color: rgb(0, 136, 254);
+          background-color: rgb(37, 81, 3);
 
-          h6.title {
+          h6.title { 
             flex-grow: 1;
             margin: 10px;
           }
@@ -42,12 +42,12 @@ html {
                 width: 100%;
                 &.submit-button{
                   margin-top: 0px;
-                  background: rgb(0, 136, 254);
+                  background: rgb(37, 81, 3);
                   &.Mui-disabled{
                     background: #E0E0E0
                   }
                   .MuiCircularProgress-root{
-                    color: rgb(0, 136, 254);
+                    color: rgb(37, 81, 3);
                     position: absolute;
                   }
                 }

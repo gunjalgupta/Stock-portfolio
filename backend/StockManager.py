@@ -18,7 +18,7 @@ def get_latest_price(strategies):
     for strategy in strategies:
         url_filter = url_filter + ',' + ','.join(stocks[strategy])
 
-    response = requests.get(base_url + url_filter)
+    response = requests.get(base_url + url_filter + "?apikey=key" )
     if response.status_code != 200:
         Exception("API Error")
     response_json = response.json()
@@ -68,7 +68,7 @@ def get_weekly_trend(strategies, allocation):
 
     for strategy in strategies:
         for ticker in stocks.get(strategy):
-            response = requests.get(base_url + ticker + date_filter)
+            response = requests.get(base_url + ticker + date_filter + "&apikey=key")
             if response.status_code != 200:
                 Exception("API Error")
             response_json = response.json()
